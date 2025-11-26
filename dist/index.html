@@ -1,38 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
-<head></head>
+
+<head>
   <meta charset="UTF-8" />
-  <title>Cuenta regresiva GTA 6</title>
+
+  <!-- SEO: Dynamic Title (updated by JS based on language) -->
+  <title id="page-title">Contador GTA 6 - Cuenta Regresiva Oficial Lanzamiento 2026</title>
+
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Cuenta regresiva en tiempo real para el lanzamiento de Grand Theft Auto VI y últimas noticias oficiales de Rockstar Games." />
+
+  <!-- SEO: Dynamic Meta Description (updated by JS based on language) -->
+  <meta id="page-description" name="description"
+    content="Contador GTA 6 en tiempo real hasta el lanzamiento oficial. Cuenta regresiva precisa para Grand Theft Auto VI. ¡No te pierdas el estreno de 2026!" />
+
+  <!-- SEO: Keywords -->
+  <meta name="keywords"
+    content="contador GTA 6, contador GTA VI, cuenta regresiva GTA 6, contador lanzamiento GTA 6, GTA 6 countdown, GTA VI countdown, contagem regressiva GTA 6" />
+
+  <!-- SEO: Author & Publisher -->
+  <meta name="author" content="GTA 6 Countdown" />
+  <link rel="canonical" href="https://gtavitime.live" />
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" id="og-title" content="Contador GTA 6 - Cuenta Regresiva Oficial Lanzamiento 2026" />
+  <meta property="og:description" id="og-description"
+    content="Contador GTA 6 en tiempo real hasta el lanzamiento oficial. Cuenta regresiva precisa para Grand Theft Auto VI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gtavitime.live" />
+  <meta property="og:image" content="https://gtavitime.live/img/gta6-logo.png" />
+  <meta property="og:site_name" content="GTA 6 Countdown" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="pt_BR" />
+
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" id="twitter-title" content="Contador GTA 6 - Cuenta Regresiva Oficial" />
+  <meta name="twitter:description" id="twitter-description"
+    content="Contador en tiempo real hasta el lanzamiento de GTA 6" />
+  <meta name="twitter:image" content="https://gtavitime.live/img/gta6-logo.png" />
+
+  <!-- AdSense -->
   <meta name="google-adsense-account" content="ca-pub-4424792822091234">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="/styles.css" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+
   <!-- AdSense Script -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4424792822091234" crossorigin="anonymous"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4424792822091234"
+    crossorigin="anonymous"></script>
+
+  <!-- Structured Data (JSON-LD) for Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "GTA 6 Countdown",
+    "alternateName": ["Contador GTA 6", "GTA VI Countdown", "Contagem Regressiva GTA 6"],
+    "description": "Official countdown timer for Grand Theft Auto VI release",
+    "url": "https://gtavitime.live",
+    "applicationCategory": "Entertainment",
+    "operatingSystem": "Web Browser",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "about": {
+      "@type": "VideoGame",
+      "name": "Grand Theft Auto VI",
+      "alternateName": "GTA 6",
+      "gamePlatform": ["PlayStation 5", "Xbox Series X/S", "PC"],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rockstar Games"
+      },
+      "datePublished": "2026-11-19"
+    },
+    "inLanguage": ["es", "en", "pt"]
+  }
+  </script>
 </head>
+
 <body>
   <div class="page-wrapper">
     <!-- HEADER MINIMALISTA CON LOGO -->
     <header class="header">
       <div class="brand">
-        <img src="/img/gta6-logo.png" alt="Logo de Grand Theft Auto VI" class="brand-logo" />
+        <img src="/img/gta6-logo.png" alt="Logo GTA 6 - Grand Theft Auto VI" class="brand-logo" />
         <div class="brand-text">
-          <span class="brand-tagline">Cuenta regresiva no oficial</span>
+          <span class="brand-tagline" data-i18n="brand-tagline">Cuenta regresiva no oficial</span>
           <span class="brand-title">GTA 6 Countdown</span>
         </div>
       </div>
 
       <nav class="nav">
         <a href="#countdown" class="nav-link" data-i18n="nav-countdown">Cuenta regresiva</a>
-        
+        <a href="#features" class="nav-link" data-i18n="nav-features">Características</a>
+        <a href="#news" class="nav-link" data-i18n="nav-news">Noticias</a>
+
         <!-- Language Selector -->
         <select id="language-selector" class="language-selector" aria-label="Select language">
           <option value="es">🇪🇸 ES</option>
           <option value="en">🇬🇧 EN</option>
           <option value="pt">🇧🇷 PT</option>
         </select>
-        
+
         <!-- Theme Toggle -->
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme">
           <span class="theme-icon">🌙</span>
@@ -43,9 +117,10 @@
     <!-- Legal Disclaimer Banner -->
     <div class="disclaimer-banner">
       <p class="disclaimer-text">
-        ⚠️ <strong data-i18n="disclaimer-title">SITIO NO OFICIAL</strong> - 
-        <span data-i18n="disclaimer-text">Esta es una página de fans. Para información oficial, visita</span> 
-        <a href="https://www.rockstargames.com/" target="_blank" rel="noopener noreferrer" class="official-link">www.rockstargames.com</a>
+        ⚠️ <strong data-i18n="disclaimer-title">SITIO NO OFICIAL</strong> -
+        <span data-i18n="disclaimer-text">Esta es una página de fans. Para información oficial, visita</span>
+        <a href="https://www.rockstargames.com/" target="_blank" rel="noopener noreferrer"
+          class="official-link">www.rockstargames.com</a>
       </p>
     </div>
 
@@ -55,14 +130,27 @@
         <span class="ad-label" data-i18n="ad-label">Publicidad</span>
         <div class="ad-container">
           <!-- AdSense Leaderboard 728x90 -->
-          <div class="ad-placeholder">728x90 Leaderboard</div>
+          <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"
+            data-ad-client="ca-pub-4424792822091234" data-ad-slot="1234567890"></ins>
         </div>
       </div>
-      
+
       <!-- Sección cuenta regresiva -->
       <section id="countdown" class="section section-countdown">
         <div class="card">
-          <h1 data-i18n="countdown-title">Cuenta regresiva para GTA 6</h1>
+          <h1 data-i18n="countdown-h1">Contador GTA 6 - Cuenta Regresiva Oficial</h1>
+
+          <!-- SEO Optimized Intro Paragraph -->
+          <p class="seo-intro" data-i18n="seo-intro">
+            <strong>Bienvenido al contador GTA 6 más preciso de internet.</strong> Este <strong>contador GTA VI</strong>
+            muestra en tiempo real cuánto falta para el lanzamiento oficial de Grand Theft Auto VI, programado para el
+            19 de noviembre de 2026. Nuestra <strong>cuenta regresiva GTA 6</strong> se actualiza cada segundo,
+            permitiéndote seguir exactamente cuántos días, horas, minutos y segundos faltan para disfrutar del juego más
+            esperado de Rockstar Games. Además del <strong>contador lanzamiento GTA 6</strong>, encontrarás las últimas
+            noticias oficiales, características confirmadas del juego y toda la información sobre plataformas
+            disponibles.
+          </p>
+
           <p class="release-info">
             <span data-i18n="release-label">Lanzamiento oficial actual:</span> <strong>19 de noviembre de 2026</strong>
             <span class="release-note" data-i18n="release-note">(según comunicados recientes de Rockstar Games)</span>
@@ -100,46 +188,209 @@
 
         <!-- Columna derecha: ads -->
         <aside class="ads-column">
-          <!-- Sidebar Ad 1 - Large Rectangle -->
+          <!-- Sidebar Ad - Medium Rectangle -->
           <div class="ad-banner ad-sticky">
             <span class="ad-label" data-i18n="ad-label">Publicidad</span>
-            <div class="ad-placeholder">
-              <p>300x600 Skyscraper</p>
-            </div>
-          </div>
-
-          <!-- Sidebar Ad 2 - Medium Rectangle -->
-          <div class="ad-banner">
-            <span class="ad-label" data-i18n="ad-label">Publicidad</span>
-            <div class="ad-placeholder">
-              <p>300x250 Rectangle</p>
+            <div class="ad-placeholder-wrapper">
+              <!-- AdSense Medium Rectangle 300x250 -->
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px"
+                data-ad-client="ca-pub-4424792822091234" data-ad-slot="9876543210"></ins>
             </div>
           </div>
         </aside>
       </section>
 
-      <!-- In-Content Native Ad -->
-      <div class="ad-slot ad-native">
-        <span class="ad-label" data-i18n="ad-label">Publicidad</span>
-        <div class="ad-container">
-          <div class="ad-placeholder">Native Ad / 728x90</div>
-        </div>
-      </div>
-    </main>
+      <!-- PLATFORMS SECTION -->
+      <section id="platforms" class="section section-full">
+        <div class="card">
+          <h2 data-i18n="platforms-title">Plataformas Disponibles</h2>
+          <p class="section-intro" data-i18n="platforms-intro">
+            GTA 6 estará disponible en las siguientes plataformas de nueva generación:
+          </p>
 
-    <!-- Footer Banner Ad -->
-    <div class="ad-slot ad-footer">
-      <span class="ad-label" data-i18n="ad-label">Publicidad</span>
-      <div class="ad-container">
-        <div class="ad-placeholder">728x90 Footer Banner</div>
-      </div>
-    </div>
+          <div class="platforms-grid">
+            <div class="platform-card">
+              <div class="platform-icon">🎮</div>
+              <h3>PlayStation 5</h3>
+              <p data-i18n="platform-ps5-desc">Optimizado para aprovechar el SSD ultra rápido y el DualSense de PS5</p>
+            </div>
+
+            <div class="platform-card">
+              <div class="platform-icon">🎯</div>
+              <h3>Xbox Series X/S</h3>
+              <p data-i18n="platform-xbox-desc">Compatible con Quick Resume y optimizado para Series X</p>
+            </div>
+
+            <div class="platform-card">
+              <div class="platform-icon">💻</div>
+              <h3>PC</h3>
+              <p data-i18n="platform-pc-desc">Versión para PC confirmada, lanzamiento posterior a consolas</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES SECTION -->
+      <section id="features" class="section section-full">
+        <div class="card">
+          <h2 data-i18n="features-title">Características de GTA 6</h2>
+          <p class="section-intro" data-i18n="features-intro">
+            Grand Theft Auto VI promete ser el juego más ambicioso de Rockstar Games hasta la fecha. Estas son las
+            características confirmadas y esperadas:
+          </p>
+
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">🌎</div>
+              <h3 data-i18n="feature-world-title">Mundo Abierto Masivo</h3>
+              <p data-i18n="feature-world-desc">
+                Vice City reimaginada con un mapa que incluye múltiples ciudades y áreas rurales. Se espera que sea el
+                mapa más grande de la historia de GTA, con ecosistemas dinámicos y clima cambiante.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">👥</div>
+              <h3 data-i18n="feature-chars-title">Dos Protagonistas</h3>
+              <p data-i18n="feature-chars-desc">
+                Por primera vez en la serie, jugarás con dos protagonistas: Jason y Lucia, inspirados en Bonnie y Clyde.
+                Podrás cambiar entre personajes durante las misiones.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">🎬</div>
+              <h3 data-i18n="feature-story-title">Historia Épica</h3>
+              <p data-i18n="feature-story-desc">
+                Una narrativa profunda que sigue la relación entre los dos protagonistas mientras escalan en el mundo
+                del crimen organizado in Vice City.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">🚗</div>
+              <h3 data-i18n="feature-vehicles-title">Vehículos Realistas</h3>
+              <p data-i18n="feature-vehicles-desc">
+                Física de conducción mejorada con cientos de vehículos personalizables. Desde deportivos de lujo hasta
+                lanchas rápidas y helicópteros.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">💎</div>
+              <h3 data-i18n="feature-graphics-title">Gráficos de Nueva Generación</h3>
+              <p data-i18n="feature-graphics-desc">
+                Motor RAGE mejorado con ray tracing, iluminación global y detalles sin precedentes. Diseñado
+                exclusivamente para hardware de nueva generación.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">🎯</div>
+              <h3 data-i18n="feature-missions-title">Misiones Dinámicas</h3>
+              <p data-i18n="feature-missions-desc">
+                Sistema de misiones mejorado con múltiples enfoques. Tus decisiones afectarán el desarrollo de la
+                historia y las relaciones con otros personajes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWS SECTION -->
+      <section id="news" class="section section-full">
+        <div class="card">
+          <h2 data-i18n="news-title">Últimas Noticias</h2>
+
+          <div class="news-list">
+            <article class="news-item">
+              <div class="news-date">Noviembre 2025</div>
+              <h3 data-i18n="news1-title">Fecha de Lanzamiento Confirmada</h3>
+              <p data-i18n="news1-desc">
+                Rockstar Games confirma oficialmente que GTA 6 se lanzará el 19 de noviembre de 2026 para PlayStation 5
+                y Xbox Series X/S. La versión de PC llegará posteriormente.
+              </p>
+            </article>
+
+            <article class="news-item">
+              <div class="news-date">Octubre 2025</div>
+              <h3 data-i18n="news2-title">Nuevo Tráiler Gameplay</h3>
+              <p data-i18n="news2-desc">
+                Se reveló un tráiler de 3 minutos mostrando gameplay real, confirmando la ambientación en Vice City y
+                presentando a los dos protagonistas principales.
+              </p>
+            </article>
+
+            <article class="news-item">
+              <div class="news-date">Septiembre 2025</div>
+              <h3 data-i18n="news3-title">Detalles del Modo Online</h3>
+              <p data-i18n="news3-desc">
+                Rockstar anuncia que GTA Online evolucionará con GTA 6, ofreciendo una experiencia completamente nueva
+                con servidores dedicados y eventos en vivo.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ SECTION -->
+      <section id="faq" class="section section-full">
+        <div class="card">
+          <h2 data-i18n="faq-title">Preguntas Frecuentes</h2>
+
+          <div class="faq-list">
+            <div class="faq-item">
+              <h3 data-i18n="faq1-q">¿Cuándo sale GTA 6?</h3>
+              <p data-i18n="faq1-a">
+                GTA 6 tiene fecha de lanzamiento confirmada para el 19 de noviembre de 2026 en PlayStation 5 y Xbox
+                Series X/S.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3 data-i18n="faq2-q">¿Estará disponible en PC?</h3>
+              <p data-i18n="faq2-a">
+                Sí, Rockstar ha confirmado una versión para PC, aunque se lanzará varios meses después de las versiones
+                de consola, siguiendo el patrón de GTA 5.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3 data-i18n="faq3-q">¿Dónde está ambientado GTA 6?</h3>
+              <p data-i18n="faq3-a">
+                El juego está ambientado en una versión moderna de Vice City (basada en Miami) y sus alrededores,
+                incluyendo áreas inspiradas en los Everglades de Florida.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3 data-i18n="faq4-q">¿Habrá GTA Online en GTA 6?</h3>
+              <p data-i18n="faq4-a">
+                Sí, Rockstar ha confirmado que habrá un modo online completamente renovado que se lanzará junto con el
+                juego base.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3 data-i18n="faq5-q">¿Cuánto costará GTA 6?</h3>
+              <p data-i18n="faq5-a">
+                Aunque no hay precio oficial confirmado, se espera que tenga un precio estándar de $69.99 USD para la
+                edición base en consolas de nueva generación.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer class="footer">
       <p>
-        <strong data-i18n="footer-unofficial">Sitio web NO oficial.</strong> 
-        <span data-i18n="footer-disclaimer">Esta es una página creada por fans. Grand Theft Auto, GTA y Rockstar Games son marcas registradas de Take-Two Interactive Software, Inc. Toda la información oficial sobre GTA 6 está disponible en</span> 
-        <a href="https://www.rockstargames.com/" target="_blank" rel="noopener noreferrer" class="official-link">www.rockstargames.com</a>
+        <strong data-i18n="footer-unofficial">Sitio web NO oficial.</strong>
+        <span data-i18n="footer-disclaimer">Esta es una página creada por fans. Grand Theft Auto, GTA y Rockstar Games
+          son marcas registradas de Take-Two Interactive Software, Inc. Toda la información oficial sobre GTA 6 está
+          disponible en</span>
+        <a href="https://www.rockstargames.com/" target="_blank" rel="noopener noreferrer"
+          class="official-link">www.rockstargames.com</a>
       </p>
       <p class="footer-small" data-i18n="footer-privacy">
         No se almacenan datos personales. Preferencias guardadas en tu navegador (localStorage).
@@ -148,5 +399,19 @@
   </div>
 
   <script src="/main.js" defer></script>
+
+  <!-- Initialize AdSense Ads -->
+  <script>
+    // Initialize ads after page load
+    window.addEventListener('load', function () {
+      try {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {
+        console.log('AdSense initialization error:', e);
+      }
+    });
+  </script>
 </body>
+
 </html>
