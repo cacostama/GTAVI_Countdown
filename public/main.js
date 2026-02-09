@@ -68,9 +68,9 @@ const translations = {
     "faq4-a": "Sí, Rockstar ha confirmado que habrá un modo online completamente renovado que se lanzará junto con el juego base.",
     "faq5-q": "¿Cuánto costará GTA 6?",
     "faq5-a": "Aunque no hay precio oficial confirmado, se espera que tenga un precio estándar de $69.99 USD para la edición base en consolas de nueva generación.",
-    "seo-title": "Contador GTA 6 - Cuenta Regresiva Oficial Lanzamiento 2026",
-    "seo-description": "Contador GTA 6 en tiempo real hasta el lanzamiento oficial. Cuenta regresiva precisa para Grand Theft Auto VI. ¡No te pierdas el estreno de 2026!",
-    "countdown-h1": "Contador GTA 6 - Cuenta Regresiva Oficial",
+    "seo-title": "Contador GTA 6 - Cuenta regresiva no oficial",
+    "seo-description": "Cuenta regresiva no oficial de GTA 6 con metodología, fuentes y preguntas frecuentes para fans de Grand Theft Auto VI.",
+    "countdown-h1": "Contador GTA 6 - Cuenta regresiva no oficial",
     "seo-intro": "Bienvenido al contador GTA 6 más preciso de internet. Este contador GTA VI muestra en tiempo real cuánto falta para el lanzamiento oficial de Grand Theft Auto VI, programado para el 19 de noviembre de 2026. Nuestra cuenta regresiva GTA 6 se actualiza cada segundo, permitiéndote seguir exactamente cuántos días, horas, minutos y segundos faltan para disfrutar del juego más esperado de Rockstar Games. Además del contador lanzamiento GTA 6, encontrarás las últimas noticias oficiales, características confirmadas del juego y toda la información sobre plataformas disponibles."
   },
   en: {
@@ -131,9 +131,9 @@ const translations = {
     "faq4-a": "Yes, Rockstar has confirmed there will be a completely revamped online mode that will launch alongside the base game.",
     "faq5-q": "How much will GTA 6 cost?",
     "faq5-a": "While there is no official price confirmed, it is expected to have a standard price of $69.99 USD for the base edition on next-gen consoles.",
-    "seo-title": "GTA 6 Countdown - Official Release Timer November 2026",
-    "seo-description": "Live GTA 6 countdown to official release. Accurate timer for Grand Theft Auto VI launch. Track days, hours, minutes until November 19, 2026!",
-    "countdown-h1": "GTA 6 Countdown - Official Release Timer",
+    "seo-title": "GTA 6 Countdown - Unofficial fan timer",
+    "seo-description": "Unofficial GTA 6 countdown with editorial methodology, source links and FAQ for Grand Theft Auto VI fans.",
+    "countdown-h1": "GTA 6 Countdown - Unofficial fan timer",
     "seo-intro": "Welcome to the most accurate GTA 6 countdown on the internet. This GTA VI countdown displays in real-time exactly how long until the official release of Grand Theft Auto VI, scheduled for November 19, 2026. Our GTA 6 release countdown updates every second, letting you track precisely how many days, hours, minutes, and seconds remain until you can experience Rockstar Games' most anticipated title. Beyond the GTA 6 timer, you'll find the latest official news, confirmed game features, and complete information about available platforms."
   },
   pt: {
@@ -194,9 +194,9 @@ const translations = {
     "faq4-a": "Sim, a Rockstar confirmou que haverá um modo online completamente renovado que será lançado junto com o jogo base.",
     "faq5-q": "Quanto custará GTA 6?",
     "faq5-a": "Embora não haja preço oficial confirmado, espera-se que tenha um preço padrão de $69.99 USD para a edição base em consoles de nova geração.",
-    "seo-title": "Contagem Regressiva GTA 6 - Timer Oficial Lançamento 2026",
-    "seo-description": "Contagem regressiva GTA 6 em tempo real até o lançamento oficial. Timer preciso para Grand Theft Auto VI. Não perca a estreia de 2026!",
-    "countdown-h1": "Contador GTA 6 - Contagem Regressiva Oficial",
+    "seo-title": "Contagem Regressiva GTA 6 - Timer não oficial",
+    "seo-description": "Contagem regressiva não oficial do GTA 6 com metodologia editorial, fontes e FAQ para fãs de Grand Theft Auto VI.",
+    "countdown-h1": "Contador GTA 6 - Contagem regressiva não oficial",
     "seo-intro": "Bem-vindo ao contador GTA 6 mais preciso da internet. Este contador GTA VI mostra em tempo real quanto falta para o lançamento oficial de Grand Theft Auto VI, programado para 19 de novembro de 2026. Nossa contagem regressiva GTA 6 atualiza a cada segundo, permitindo acompanhar exatamente quantos dias, horas, minutos e segundos faltam para desfrutar do jogo mais esperado da Rockstar Games. Além do temporizador GTA 6, você encontrará as últimas notícias oficiais, características confirmadas do jogo e todas as informações sobre plataformas disponíveis."
   }
 };
